@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,800&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1300px;
+	color: #60606E;
+	margin: 0 auto;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+h2, h3, h4, h5{
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 30px;
+	margin: 130px 0 15px;
+	background-image: url(../img/bg-text.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 110%;
+}
+
+h3{
+	font-family: 'Myriad Pro', serif;
+	font-size: 24px;
+	line-height: 1.5;
+	margin: 15px 25px 30px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link,
+a:active,
+a:visited{
+	text-decoration: none;
+	color: #60606E;
+}
+
+p{
+	font-family: 'Open Sans', serif;
+	font-size: 14px;
+	line-height: 2.143;
+	font-weight: 400;
+}
+
+h2 + p{
+	line-height: 1.714;
+	width: 750px;
+	margin: 0 auto 70px;
+	text-align: center;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-3-12{
+	width: 25%;
+	margin: 0 0 30px 30px;
+}
+
+.col-3-12:first-of-type{
+	margin-left: 0;
+	
+}
+
+.col-4-12{
+	width: 33.333%;
+	margin: 20px 0 20px 30px;
+}
+
+.col-4-12:first-of-type{
+	margin-left: 0;
+}
+
+.col-6-12{
+	width: 50%;
+	margin: 20px 0 20px 30px;
+}
+
+.col-6-12:first-of-type{
+	margin-left: 0;
+}
+
+
+
+/*HEADER*/
+
+
+
+header{
+	position: relative;
+	font-family: 'Montserrat', serif;
+	height: 500px;
+}
+
+header:before{
+	content: '';
+	background-image: url(../img/bg-header.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	z-index: -1;
+}
+
+.header_line{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	
+}
+
+.menu{
+	height: 19px;
+	width: 33px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.menu span{
+	content: '';
+	height: 1px;
+	background-color: #60606e;
+	display: block;
+	
+}
+
+.menu span:first-of-type{
+	width: 33px;
+}
+
+.menu span:nth-of-type(2){
+	width: 18px;
+	margin: 5px 0;
+}
+
+.menu span:last-of-type{
+	width: 25px;
+}
+
+.header{
+	text-align: center;	
+}
+
+.header h1{
+	font-size: 36px;
+	line-height: 1.333;
+	margin: 155px auto 15px;
+	text-transform: uppercase;
+}
+
+.go_to{
+	display: flex;
+	width: 120px;
+	height: 25px;
+	line-height: 25px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+
+
+/*MAIN*/
+/*ABOUT*/
+
+
+
+.about{
+	font-family: 'Montserrat', serif;
+}
+
+.about p{
+	font-family: 'Open Sans', serif;
+	font-size: 14px;
+	
+}
+
+
+
+/*BENEFITS*/
+
+
+
+.benefits h2{
+	text-align: center;
+	background-position-x: 42%;
+}
+
+.benefits_title{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.benefits_title img{
+	margin: 0 19px 10px 0;
+}
+
+
+
+/*TEAM*/
+
+
+
+.team h2{
+	text-align: center;
+	background-position-x: 40.5%;
+}
+
+.team p{
+	margin-bottom: 100px;
+}
+
+.team_img{
+	overflow: hidden;
+}
+
+.team_img img{
+	transition: all .9s ease;	
+}
+
+.team_img img:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+
+
+/*FOOTER*/
+
+
+
+footer{
+	background-color: #7BEEC7;
+	height: 330px;
+}
+
+footer h2{
+	margin-top: 30px !important;
+	color: #FFF;
+	line-height: 1.6;
+	background-image: none;
+}
+
+.footer_box{
+	display: inline-block;
+	background-color: #FFF;
+	height: 230px;
+	width: 555px;
+	margin: 30px 0;
+}
+
+.btn{
+	height: 50px;
+	font-family: 'Montserrat', serif;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+}
+
+.btn_1{
+	color: #7BEEC7;
+	background-color: #fff;
+	padding: 15px 30px;
+}
+
+.btn_2{
+	background-color: #7BEEC7;
+	color: #fff;
+	padding: 15px 50px;
+	margin-right: -1.5px;
+	margin-top: -1.5px;
+}
+
+.footer_box p{
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 20px 15px 35px 25px;
+}
+
+.footer_box form{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 25px;
+	width: 510px;
+	height: 47px;
+	border: 1.5px solid #CDCDCD;
+	outline: none;
+}
+
+.footer_box input{
+	width: 395px;
+	font-size: 12px;
+	color: #CDCDCD;
+	padding-left: 19px;
+	border: none;
+	outline: none;
+	
+}
